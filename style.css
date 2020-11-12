@@ -1,0 +1,66 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,600);
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	background: url(bg-body.jpg) center center no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.content {
+	text-align: center;
+	padding: 20px;
+	color: white;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 300px;
+	margin-left: -150px;
+}
+
+.content h1 {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.content .btn {
+	font-family: "Open Sans", sans-serif;
+	color: white;
+	background: rgba( 106, 10, 27, .5 );
+	text-decoration: none;
+	padding: 20px;
+	margin: 15px 0;
+	display: block;
+	transition: 400ms background ease-in-out;
+}
+
+.content .btn:hover {
+	background: rgba( 106, 10, 27, .8 );
+}
+
+@media screen and ( min-width: 600px ) {
+
+	.content {
+		width: 500px;
+		margin-left: -250px;
+	}
+
+	.content h1 {
+		font-size: 30px;
+		line-height: 40px;
+	}
+
+	.content .btn {
+		display: inline-block;
+		padding: 20px 30px;
+		margin: 10px;
+	}
+
+}

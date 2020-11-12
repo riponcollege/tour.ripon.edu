@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ripon's Virtual Tour</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<div class="container">
+
+		<div class="content">
+			<img src="logo.png" class="logo">
+			<h1>Welcome to the virtual tour!</h1>
+			<a href="https://www.youvisit.com/#/vte/?data-platform=v&data-inst=62894&data-loc=143066&" class="btn">Start with audio</a>
+			<a href="https://www.youvisit.com/#/vte/?data-platform=v&data-inst=62894&data-loc=143066&data-autoplay=0" class="btn">Start without audio</a>
+		</div>
+
+	</div>
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script>
+	$(document).ready(function(){
+		$('.container').height( $(window).innerHeight() );
+		var content = $('.content');
+		var content_top = -( content.height() / 2 );
+		$('.content').css( 'margin-top', content_top );
+	});
+	</script>
+	<script async="async" defer="defer" src="https://www.youvisit.com/tour/Embed/js3"></script>
+</body>
+</html>
