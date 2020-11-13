@@ -32,7 +32,7 @@ body {
 .content .btn {
 	font-family: "Open Sans", sans-serif;
 	color: white;
-	background: rgba( 106, 10, 27 );
+	background: rgb( 106, 10, 27 );
 	text-decoration: none;
 	padding: 20px;
 	margin: 15px 0;
