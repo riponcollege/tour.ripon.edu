@@ -38,7 +38,7 @@ body {
 	margin: 15px 0;
 	display: block;
 	transition: 400ms background ease-in-out, 400ms border ease-in-out;
-	border: 5px solid transparent;
+	border: 5px solid rgba( 255, 255, 255, .4 );
 }
 
 .content .btn:hover {
