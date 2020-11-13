@@ -37,11 +37,13 @@ body {
 	padding: 20px;
 	margin: 15px 0;
 	display: block;
-	transition: 400ms background ease-in-out;
+	transition: 400ms background ease-in-out, 400ms border ease-in-out;
+	border: 5px solid transparent;
 }
 
 .content .btn:hover {
 	background: rgba( 106, 10, 27, .8 );
+	border: 5px solid rgba( 255, 255, 255, .4 );
 }
 
 @media screen and ( min-width: 600px ) {
