@@ -19,11 +19,19 @@
 	</div>
 	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 	<script>
-	$(document).ready(function(){
+	var set_layout = function() {
 		$('.container').height( $(window).innerHeight() );
 		var content = $('.content');
 		var content_top = -( content.height() / 2 );
 		$('.content').css( 'margin-top', content_top );
+	}
+
+	$(document).ready(function(){
+		
+		set_layout();
+
+		$(window).on( 'resize', set_layout );
+		
 	});
 	</script>
 	<script async="async" defer="defer" src="https://www.youvisit.com/tour/Embed/js3"></script>
