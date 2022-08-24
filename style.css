@@ -29,6 +29,13 @@ body {
 	line-height: 30px;
 }
 
+.content p {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+	font-size: 17px;
+	line-height: 28px;
+}
+
 .content .btn {
 	font-family: "Open Sans", sans-serif;
 	color: white;
